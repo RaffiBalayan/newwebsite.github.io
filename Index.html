@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+<div id="div1">
+  <button><a  id=a1 href="C:\Users\User\website\Home.html" >Home</a></button>
+  <button><a  id=a1 href="C:\Users\User\website\About us.html">About</a></button>
+  <button><a  id=a2 href="C:\Users\User\website\Contact.html">Contact</a></button>
+  <button><a  id=a2 href="https://policies.google.com">Privacy</a></button>
+</div>
+<div id="div2">
+  <img class="img1" src="https://i.pinimg.com/originals/69/e6/f6/69e6f674d4ab40834c31493d21d9560c.gif">
+   <a>RB Academy</a>
+   <a class="a3">Enjoy learning programming with us</a>
+  <img src="https://i.pinimg.com/564x/d0/87/54/d08754121d76cd4fbea7164fabc9154f.jpg">
+</div>
+  <style type="text/css">
+.img1{width: 350px; height: 300px;
+    border-radius: 10%;
+    position: absolute;
+    border: 0px solid black;
+    margin-top: 200px;
+    margin-right: 685px;}
+#a2{color: black;
+    padding: 1em 1.5em;
+    text-shadow: none;
+    margin-left: -10px;}
+#a2:hover{color: rgb(196, 128, 3);}
+#a1{color: black;
+    padding: 1em 1.5em;
+    text-shadow: none;
+    margin-left: 5px;} 
+#a1:hover{color: rgb(196, 128, 3);}   
+#div1{position: absolute;
+    margin-left: 225px;}
+button{margin: 10px;
+    text-decoration:none ;
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    border:0px ;
+    background: transparent;
+    color: black;}
+    /*
+button:hover{color: rgb(196, 128, 3);
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border: 1.5px solid black;}
+    */
+#div2{display: flex;
+    background: linear-gradient(0.5deg, white, white, lightgray);
+    margin-top: 80px;
+    justify-content: right;
+    margin-left: 130px;
+    width: 1300px;
+    height: 650px;
+    box-shadow: rgb(13, 26, 40) 20px 30px 40px -5px; }
+a{font-size: 25px;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    position:relative;
+    margin-right: 370px;
+    margin-top: 140px;
+    max-width:  450px;
+    text-shadow: 1px 1px rgba(201, 131, 2, 0.397);}
+.a3{margin-top: 170px;
+    font-size: 22px;
+    position: absolute;
+    margin-right:700px ;}
+    button {
+	color: #00080a; /* Цвет обычной ссылки */
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+button:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    width: 0;
+    height: 2px; /* Высота линии */
+    background-color: black; /* Цвет подчеркивания при исчезании линии*/
+    transition: width 0.5s; /* Время эффекта */
+}
+button:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    height: 2px; /* Высота линии */
+    background-color: rgb(196, 128, 3); /* Цвет подчеркивания при появлении линии*/
+    transition: width 0.5s;  /* Время эффекта */
+}
+  </style>
+</body>
+</html>
